@@ -14,6 +14,6 @@ public class MapSort {
   public static Map sortByKey(Map unsortedMap){
   	Map sortedMap = new TreeMap();
   	sortedMap.putAll(unsortedMap);
-  	return sortedMap;
+  	return sortedMap;//just for testing
   }
 }
